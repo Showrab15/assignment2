@@ -1,0 +1,601 @@
+
+
+
+/* Here i import my fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/*  Basic body styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+section{
+background-color: rgba(255, 144, 14, 0.1);
+width: 1350px;
+height: 950px;
+}
+/*------------------ Basic body styles End *-----------------/
+
+
+/* <!-- navigation menu section  Styles--> */
+
+label.logo{
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+margin:100px; 
+position: relative;
+top: 50px;
+}
+
+nav ul{
+display: flex;
+justify-content: flex-end;
+gap: 30px;
+margin-right: 100px;
+}
+
+nav ul li{
+list-style: none;
+}
+
+nav ul li a{
+text-decoration: none;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #424242;
+}
+
+/*-------------------------- <!-- navigation menu section  Styles End-->----------------------- */
+
+/* styles of banner section */
+
+.banner-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title{
+text-align: center;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+color: #131313;
+}
+
+.info-details{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.banner-button{
+width: 180px;
+height: 64px;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.banner-image{
+margin-top: 50px;
+border-radius: 8px;
+width: 100%;
+}
+
+/* end of styles of banner section */
+
+/* ------------------------features section styles-------------------------------- */
+
+
+.feature-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.features-images{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 20px;
+}
+
+.features-texts{
+    margin-left: 55px;
+    margin-top: 289px
+}
+
+.features-detail{
+    width: 500px;
+}
+.feature-title{
+    width: 350px;
+}
+
+.left-side{
+    color: #727272;
+}
+
+.centre-side{
+    color: #131313;
+    font-weight: 900;
+}
+
+.right-side{
+    color: #FF900E;
+    font-weight: 900;
+}
+
+.features-button{
+width: 140px;
+height: 50px;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+font-weight: 600;
+font-size: 15px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+/* ------------------------------end of features section styles---------------------------- */
+
+
+/* Style of the architect section */
+
+.architect-container{
+    display: flex;
+}
+
+
+.architect-heading{
+ margin-top: 100px;
+margin-left: 50px;
+width: 468px;
+height: 106px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+
+.line{
+    border-left: 5px solid  #FF900E;
+}
+
+.architect-detail{
+ margin-left: 50px;
+width: 460px;
+height: 78px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+} 
+
+.architect-box-list{
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 414px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}  
+
+.box{
+ width: 466px;
+height: 181px;
+background: #FFFFFF;
+ box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+
+
+
+.architect-box-title{
+    padding-top: 20px;
+ padding-left: 15px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+}
+
+.architect-box-detail{
+    padding-left: 15px;
+    width: 414px;
+    height: 78px;
+} 
+
+.architect-image{
+margin-top: 90px;
+margin-left: 60px;
+width: 100%;
+}
+
+.architect-button{
+    width: 250px;
+    height: 150px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+
+
+
+.architect-button > h1{
+    width: 258px;
+height: 109px;
+font-weight: 700;
+font-size: 35px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.button-short-text{
+    display: flex;
+    font-size: 10px;
+   justify-content: center;
+text-align: center;
+align-items: center;
+margin-top: -35px;
+} 
+
+/*--------------------------------- Architects Section Styles End ------------------------------- */
+
+
+/* Styles section of the facts of this architect website */
+
+
+.facts-section{
+   margin-top: 100px;
+   margin-left: 50px;
+}
+
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+  color: #131313;
+}
+
+.fact-description{
+width: 542px;
+height: 52px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+
+.facts-container{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin-left: 40px;
+   margin-top: 100px;
+}
+
+.facts-boxes{
+box-sizing: border-box;
+width: 180.83px;
+height: 180.83px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+}
+
+.facts-boxes:hover{
+    background-color: #FF900E;
+    transform: rotate(360deg);
+    transition: all 2500ms linear;
+   
+}
+
+.fact-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+font-weight: 600;
+font-size: 25px;
+color: #424242;
+}
+
+.fact-reason{
+ justify-content: center;
+ display: flex;
+align-items: center;
+text-align: center;
+margin-top: -55px;
+font-weight: 300;
+font-size: 15px;
+color: #727272;
+}
+
+#icon{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 60px;
+}
+
+/* --------------------The end of the style of Our facts section------------------------ */
+
+
+/* -------------Styles of our Sponsor section-------------  */
+
+.sponsor-title{
+justify-content: center;
+ display: flex;
+ margin-top: 100px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+
+.sponsor-detail{
+    justify-content: center;
+    display: flex;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+
+.sponsor-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#sponsor-icon{
+    width: 100px;
+}
+
+/* -----------------------End of styles of our sponsor section-------------------------------------- */
+
+
+/* styles of our footer section */
+
+
+footer{
+margin-top: 80px;
+ width: 1040px;
+height: 60px;
+margin-left: auto;
+margin-right: auto;
+background: #FFF4E7;
+border-radius: 8px;
+}
+
+footer > p{
+justify-content: center;
+text-align: center;
+position: relative;
+top: 30px;
+font-weight: 400;
+font-size: 15px;
+color: #424242;
+}
+
+
+/* ------------------------------------------end of footer section's styles---------------------------------------------- */
+
+
+
+/* Responsive Styles */
+
+/*------------------- Responsive  Only for mobile device------------------------- */
+
+@media only screen and (max-width :576px) {
+    
+    section {
+        background-color: rgba(255, 144, 14, 0.1);
+        width: 450px;
+        height: 700px;
+    }
+
+
+label.logo{
+    top: 50px;
+    margin: 35px;
+}
+
+nav ul{
+    position: relative;
+    top: 40px;
+}
+
+    
+.info-title {
+   display: flex;
+   justify-content: flex-start;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-left: 40px;
+
+   
+}
+
+
+.banner-container{
+    display: flex;
+   justify-content: flex-start;
+}
+
+.info-details{
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 12px;
+  
+}
+
+.banner-button{
+    justify-content: center;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+
+.banner-image img{
+ height: 80%;
+ width: 70%;
+ margin-left: 40px;
+ justify-content: flex-start;
+ display: flex;
+}
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.features-texts{
+    margin-left: 45px;
+    margin-top: 10px
+}
+
+.features-detail{
+ width: 370px;
+text-align: left;
+font-size: 15px;
+}
+
+.features-images{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    gap: 20px;
+}
+
+.features-title{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 95px;
+    font-weight: 500;
+    font-size: 15px;
+   
+}
+
+
+.architect-container{
+flex-direction: column;
+}
+
+.box{
+    width:350px;
+    background-color: red;
+}
+
+.architect-box-detail {
+    padding-left: 15px;
+    width: 330px;
+    height: 78px;
+}
+
+.architect-heading{
+    width:270px;
+}
+.line{
+    height: 170px;
+}
+
+.architect-detail{
+    width: 350px;
+    font-size: 14px;
+}
+
+
+.architect-image img{
+    margin-top: 700px;
+    width: 50%;
+    height: 5%;
+    }
+
+
+    .fact-description{
+        width: 322px;
+        font-size: 17px;
+    }
+
+    .facts-container {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .sponsor-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 50px;
+    }
+
+    .sponsor-title{
+        justify-content: flex-start;
+        margin-left: 50px;
+        margin-top:50px;
+    }
+
+.sponsor-detail {
+    
+    text-align: left;
+    width: 240px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 40px;
+    width: 380px;
+    height: 100px;
+    margin-left: 30px;
+    
+}
+
+footer > p{
+    width: 300px;
+    text-align: center;
+    left: 60px;
+}
+}
