@@ -76,6 +76,7 @@ color: #131313;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    width: 800px;
 }
 
 .banner-button{
@@ -419,10 +420,11 @@ color: #424242;
 
 @media only screen and (max-width :576px) {
     
+   
     section {
         background-color: rgba(255, 144, 14, 0.1);
         width: 450px;
-        height: 700px;
+        height: 750px;
     }
 
 
@@ -456,7 +458,7 @@ nav ul{
 }
 
 .info-details{
-    width: 350px;
+    width: 240px;
     margin-top: 10px;
     margin-left: 40px;
     text-align: left;
@@ -497,7 +499,7 @@ nav ul{
 }
 
 .features-detail{
- width: 370px;
+ width: 200px;
 text-align: left;
 font-size: 15px;
 }
@@ -526,7 +528,6 @@ flex-direction: column;
 
 .box{
     width:350px;
-    background-color: red;
 }
 
 .architect-box-detail {
@@ -543,7 +544,7 @@ flex-direction: column;
 }
 
 .architect-detail{
-    width: 350px;
+    width: 270px;
     font-size: 14px;
 }
 
@@ -556,7 +557,7 @@ flex-direction: column;
 
 
     .fact-description{
-        width: 322px;
+        width: 262px;
         font-size: 17px;
     }
 
